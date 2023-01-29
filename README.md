@@ -12,7 +12,9 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <p align="center">
+  <a href="https://github.com/remy/mit-license">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  </a>
 </p>
 
 <br>
@@ -40,7 +42,7 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a [licença MIT](https://github.com/remy/mit-license).
 
 ---
 
