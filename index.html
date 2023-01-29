@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <!-- importando as fontes do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devlinks | RCassiano</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon-rc.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar-dark.png"
+          alt="foto de Renan Cassiano sorrindo, usando camisa laranja com manga longa, por cima de outra camisa, preta, cordão prata e pingente de cruz, cabelos curtos negros e barba baixa."
+        />
+        <p>@renancassiano-br</p>
+      </div>
+      <!-- troca de tema -->
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <!-- Lista ds links -->
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/renan-cassiano/" target="_blank"
+            >Meu Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://app.rocketseat.com.br/me/renancassiano"
+            target="_blank"
+            >Meu perfil Rocketseat</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/renancassiano-br" target="_blank"
+            >Meu portfólio no GitHub</a
+          >
+        </li>
+      </ul>
+      <!-- redes sociais -->
+      <div id="social-links">
+        <a href="https://www.linkedin.com/in/renan-cassiano/" target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://github.com/renancassiano-br" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.youtube.com/@rcassiano-br" target="_blank"
+          ><ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a href="#" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </div>
+      <footer>
+        <p>
+          Feito com ♥ pela
+          <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+        </p>
+      </footer>
+    </main>
+    <!-- ícones -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- chamado script local -->
+    <script src="./script.js"></script>
+  </body>
+</html>
